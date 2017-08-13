@@ -1,15 +1,23 @@
 {
-  "name": "atom-birds-syntax",
+  "name": "birds-syntax",
   "theme": "syntax",
+  "main": "./lib/birds",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "A collection of bird-inspired syntax themes",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "birds",
+    "chickadee",
+    "kingfisher",
+    "kookaburra",
+    "magpie",
+    "peafowl",
+    "pigeon"
   ],
-  "repository": "https://github.com/atom/atom-birds-syntax",
+  "repository": "https://github.com/katie7r/atom-birds-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.13.0 <2.0.0"
   }
 }

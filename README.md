@@ -1,5 +1,7 @@
-# atom-birds-syntax theme
+# Birds Syntax Themes
 
-A short description of your theme.
+A collection of bird-inspired syntax themes.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+Originally adapted from [Base16 Syntax](https://atom.io/themes/base16-syntax).
+
+<!-- ![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif) -->

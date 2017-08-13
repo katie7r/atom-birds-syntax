@@ -1,0 +1,259 @@
+.syntax--comment {
+  .if (@birds-style, 'dark', color, @birds-color-03);
+  .if (@birds-style, 'light', color, @birds-color-04);
+}
+
+.syntax--constant {
+  color: @birds-color-09;
+
+  &.syntax--character {
+    &.syntax--escape {
+      color: @birds-color-0C;
+    }
+  }
+
+  &.syntax--numeric {
+    color: @birds-color-09;
+  }
+
+  &.syntax--other {
+    &.syntax--color {
+      color: @birds-color-0C;
+    }
+
+    &.syntax--symbol {
+      color: @birds-color-0B;
+    }
+  }
+}
+
+.syntax--entity {
+  &.syntax--name {
+    &.syntax--class {
+      .if (@birds-style, 'dark', color, @birds-color-0A);
+      .if (@birds-style, 'light', color, @birds-color-09);
+    }
+
+    &.syntax--function {
+      color: @birds-color-0D;
+    }
+
+    &.syntax--section {
+      color: @birds-color-0D;
+    }
+
+    &.syntax--tag {
+      color: @birds-color-08;
+    }
+
+    &.syntax--type {
+      &.syntax--class {
+        .if (@birds-style, 'dark', color, @birds-color-0A);
+        .if (@birds-style, 'light', color, @birds-color-09);
+      }
+    }
+  }
+
+  &.syntax--other {
+    &.syntax--attribute-name {
+      color: @birds-color-09;
+
+      &.syntax--id {
+        color: @birds-color-0D;
+      }
+    }
+
+    &.syntax--inherited-class {
+      color: @birds-color-0B;
+    }
+  }
+}
+
+.syntax--invalid.syntax--illegal {
+  .if (@birds-style, 'dark', color, @birds-color-00);
+  .if (@birds-style, 'light', color, @birds-color-07);
+  background-color: @birds-color-08;
+}
+
+.syntax--keyword {
+  color: @birds-color-0E;
+
+  &.syntax--arithmetic {
+    .if (@birds-style, 'dark', color, @birds-color-05);
+    .if (@birds-style, 'light', color, @birds-color-02);
+  }
+
+  &.syntax--other {
+    &.syntax--special-method {
+      color: @birds-color-0D;
+    }
+
+    &.syntax--unit {
+      color: @birds-color-09;
+    }
+  }
+}
+
+.syntax--markup {
+  &.syntax--bold {
+    font-weight: bold;
+    .if (@birds-style, 'dark', color, @birds-color-0A);
+    .if (@birds-style, 'light', color, @birds-color-09);
+  }
+
+  &.syntax--changed {
+    color: @birds-color-0E;
+  }
+
+  &.syntax--deleted {
+    color: @birds-color-08;
+  }
+
+  &.syntax--heading {
+    color: @birds-color-0D;
+  }
+
+  &.syntax--inserted {
+    color: @birds-color-0B;
+  }
+
+  &.syntax--italic {
+    font-style: italic;
+    color: @birds-color-0E;
+  }
+
+  &.syntax--list {
+    color: @birds-color-08;
+  }
+
+  &.syntax--quote {
+    color: @birds-color-09;
+  }
+
+  &.syntax--raw {
+    &.syntax--inline {
+      color: @birds-color-0B;
+    }
+  }
+}
+
+.syntax--meta {
+  &.syntax--class {
+    .if (@birds-style, 'dark', color, @birds-color-07);
+    .if (@birds-style, 'light', color, @birds-color-01);
+  }
+
+  &.syntax--link {
+    color: @birds-color-09;
+  }
+
+  &.syntax--require {
+    color: @birds-color-0D;
+  }
+
+  &.syntax--selector {
+    color: @birds-color-0E;
+  }
+
+  &.syntax--separator {
+    .if (@birds-style, 'dark', color, @birds-color-05);
+    .if (@birds-style, 'light', color, @birds-color-02);
+    .if (@birds-style, 'dark', background-color, @birds-color-02);
+    .if (@birds-style, 'light', background-color, @birds-color-06);
+  }
+}
+
+.syntax--none {
+  .if (@birds-style, 'dark', color, @birds-color-05);
+  .if (@birds-style, 'light', color, @birds-color-02);
+}
+
+.syntax--punctuation {
+  &.syntax--definition {
+    &.syntax--array,
+    &.syntax--parameters,
+    &.syntax--string,
+    &.syntax--variable {
+      .if (@birds-style, 'dark', color, @birds-color-05);
+      .if (@birds-style, 'light', color, @birds-color-02);
+    }
+
+    &.syntax--bold {
+      font-weight: bold;
+      .if (@birds-style, 'dark', color, @birds-color-0A);
+      .if (@birds-style, 'light', color, @birds-color-09);
+    }
+
+    &.syntax--comment {
+      .if (@birds-style, 'dark', color, @birds-color-03);
+      .if (@birds-style, 'light', color, @birds-color-04);
+    }
+
+    &.syntax--entity {
+      color: @birds-color-0D;
+    }
+
+    &.syntax--italic {
+      font-style: italic;
+      color: @birds-color-0E;
+    }
+  }
+
+  &.syntax--section {
+    &.syntax--embedded {
+      color: @birds-color-0F;
+    }
+  }
+}
+
+.syntax--storage {
+  color: @birds-color-0E;
+}
+
+.syntax--string {
+  color: @birds-color-0B;
+
+  &.syntax--other {
+    &.syntax--link {
+      color: @birds-color-08;
+    }
+  }
+
+  &.syntax--regexp {
+    color: @birds-color-0C;
+  }
+}
+
+.syntax--support {
+  &.syntax--class {
+    .if (@birds-style, 'dark', color, @birds-color-0A);
+    .if (@birds-style, 'light', color, @birds-color-09);
+  }
+
+  &.syntax--type {
+    color: @birds-color-0C;
+  }
+
+  &.syntax--function {
+    color: @birds-color-0C;
+
+    &.syntax--any-method {
+      color: @birds-color-0D;
+    }
+  }
+}
+
+.syntax--variable {
+  color: @birds-color-08;
+
+  &.syntax--interpolation {
+    color: @birds-color-0F;
+  }
+
+  &.syntax--parameter {
+    &.syntax--function {
+      .if (@birds-style, 'dark', color, @birds-color-05);
+      .if (@birds-style, 'light', color, @birds-color-02);
+    }
+  }
+}
