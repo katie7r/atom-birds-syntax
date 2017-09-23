@@ -2,7 +2,7 @@ settings =
   config:
     scheme:
       type: 'string'
-      default: 'Default'
+      default: 'Pigeon'
       enum: [
         # # "Bluejay"
         # # "Cardinal"
