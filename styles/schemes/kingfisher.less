@@ -1,17 +1,33 @@
 // Common kingfisher (Alcedo atthis)
-@birds-color-00: #151515; // Default background
-@birds-color-01: #202020; // Lighter background (status bars)
-@birds-color-02: #303030; // Selection background
-@birds-color-03: #505050; // Comments, invisibles, highlighting
-@birds-color-04: #B0B0B0; // Dark foreground (status bars)
-@birds-color-05: #D0D0D0; // Default foreground, caret, delimiters, operators
-@birds-color-06: #E0E0E0; // Light foreground (infrequent)
-@birds-color-07: #F5F5F5; // Light background (infrequent)
-@birds-color-08: #FB9FB1; // Variables, XML tags, Markup link text, Markup lists, Diff deleted
-@birds-color-09: #EDA987; // Integers, boolean, constants, XML attributes, Markup link URL
-@birds-color-0A: #DDB26F; // Classes, Markup bold, search text background
-@birds-color-0B: #ACC267; // Strings, inherited class, Markup code, Diff inserted
-@birds-color-0C: #12CFC0; // Support, regular expressions, escape characters, Markup quotes
-@birds-color-0D: #6FC2EF; // Functions, methods, attribute IDs, headings
-@birds-color-0E: #E1A3EE; // Keywords, storage, selector, Markup italic, Diff changed
-@birds-color-0F: #DEAF8F; // Deprecated, opening/closing embedded language tags
+@alabaster:   #FAFAFA;
+@spun-pearl:  #9F9EAE;
+@ebony:       #232B36;
+@buccaneer:   #67342D;
+@peru:        #863F04;
+@meteor:      #CA7410;
+@tulip-tree:  #F29940;
+@atoll:       #0E6081;
+@calypso:     #316A90;
+@jelly-bean:  #2B8CA1;
+@shakespeare: #3FB6CF;
+@viking:      #74C6D8;
+@malibu:      #8FE6F5;
+@charlotte:   #A7EAF6;
+@curious:     #36A6DD;
+
+@birds-color-00: darken(#0E6081, 10%); // Default background
+@birds-color-01: lighten(@birds-color-00, 13%); // Lighter background (status bars)
+@birds-color-02: lighten(@birds-color-00, 13%); // Selection background
+@birds-color-03: fade(@birds-color-05, 30%);    // Comments, invisibles, highlighting
+@birds-color-04: #316A90; // Dark foreground (status bars)
+@birds-color-05: #A7EAF6; // Default foreground, caret, delimiters, operators
+@birds-color-06: #9F9EAE; // Light foreground (infrequent)
+@birds-color-07: #9F9EAE; // Light background (infrequent)
+@birds-color-08: #36A6DD; // Variables, XML tags, Markup link text, Markup lists, Diff deleted
+@birds-color-09: #FAFAFA; // Integers, boolean, constants, XML attributes, Markup link URL
+@birds-color-0A: #9F9EAE; // Classes, Markup bold, search text background
+@birds-color-0B: #FAFAFA; // Strings, inherited class, Markup code, Diff inserted
+@birds-color-0C: lighten(#316A90, 10%); // Support, regular expressions, escape characters, Markup quotes
+@birds-color-0D: #3FB6CF; // Functions, methods, attribute IDs, headings
+@birds-color-0E: #F29940; // Keywords, storage, selector, Markup italic, Diff changed
+@birds-color-0F: #F29940; // Deprecated, opening/closing embedded language tags

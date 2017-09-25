@@ -9,7 +9,7 @@ settings =
         # "Chickadee"
         # # "Crow"
         # # "Flamingo"
-        # "Kingfisher"
+        "Kingfisher"
         # "Kookaburra"
         "Magpie"
         # "Peafowl"
