@@ -8,11 +8,9 @@
     "syntax",
     "theme",
     "birds",
-    "chickadee",
     "kingfisher",
     "kookaburra",
     "magpie",
-    "peafowl",
     "pigeon"
   ],
   "repository": "https://github.com/katie7r/atom-birds-syntax",
