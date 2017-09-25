@@ -10,7 +10,7 @@ settings =
         # # "Crow"
         # # "Flamingo"
         "Kingfisher"
-        # "Kookaburra"
+        "Kookaburra"
         "Magpie"
         # "Peafowl"
         "Pigeon"
