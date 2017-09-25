@@ -2,7 +2,7 @@
   "name": "birds-syntax",
   "theme": "syntax",
   "main": "./lib/birds",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A collection of bird-inspired syntax themes",
   "keywords": [
     "syntax",
