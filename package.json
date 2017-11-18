@@ -8,10 +8,12 @@
     "syntax",
     "theme",
     "birds",
+    "pigeon",
+    "toucan",
     "kingfisher",
     "kookaburra",
     "magpie",
-    "pigeon"
+    "finch"
   ],
   "repository": "https://github.com/katie7r/atom-birds-syntax",
   "license": "MIT",

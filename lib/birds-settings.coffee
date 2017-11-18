@@ -9,12 +9,16 @@ settings =
         # "Chickadee"
         # # "Crow"
         # # "Flamingo"
+        # "Gouldian Finch"
+        "House Finch"
         "Kingfisher"
         "Kookaburra"
         "Magpie"
+        # "Orchard Oriole"
         # "Peafowl"
         "Pigeon"
         # # "Rooster"
+        "Toucan"
       ]
     style:
       type: 'string'
