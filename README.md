@@ -4,4 +4,8 @@ A collection of bird-inspired syntax themes.
 
 Originally adapted from [Base16 Syntax](https://atom.io/themes/base16-syntax).
 
-<!-- ![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif) -->
+![Screenshot](https://github.com/katie7r/atom-birds-syntax/raw/screenshots/screenshot-pigeon-dark.png)
+![Screenshot](https://github.com/katie7r/atom-birds-syntax/raw/screenshots/screenshot-kingfisher-dark.png)
+![Screenshot](https://github.com/katie7r/atom-birds-syntax/raw/screenshots/screenshot-house-finch-dark.png)
+
+_Pigeon, Kingfisher, House Finch (dark) themes_
